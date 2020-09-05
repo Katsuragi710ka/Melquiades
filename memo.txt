@@ -1,0 +1,10 @@
+- データ構造
+  - tag
+    - name_ja
+    - name_en
+  
+調べるサイト
+  - pinterest(name_ja)
+  - pixiv(name_ja)
+  - danbooru(name_en)
+  - pornpics(隠し、nameen)

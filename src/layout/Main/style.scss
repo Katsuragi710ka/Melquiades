@@ -1,0 +1,39 @@
+#layout-main {
+  max-width: 100vw;
+
+  .left-column {
+    
+  }
+
+  .right-column {
+    transition-duration: .3s;
+    .page-container {
+      margin: 80px 20px 35px 20px;
+    }
+  }
+
+}
+
+#layout-main.drawer-closed {
+  .left-column {
+
+  }
+
+  .right-column {
+    width: 100%;
+  }
+}
+
+#layout-main.drawer-opened {
+  .left-column {
+
+  }
+
+  .right-column {
+    margin-left: 280px;
+    width: calc(100vw - 280px) !important;
+    .page-container {
+      width: calc(inherit - 40px);
+    }
+  }
+}

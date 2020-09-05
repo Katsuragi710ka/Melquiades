@@ -1,0 +1,9 @@
+dist
+dev
+seeds
+node_modules
+public
+yarn-error.log
+.DS_Store
+settings.json
+.env

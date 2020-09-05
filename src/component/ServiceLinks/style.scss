@@ -1,0 +1,22 @@
+.service-links {
+
+  .pixiv {
+    background-color: #0096FA;
+    color: #ffffff;
+    border: 1px solid #003F6B;
+
+    &:hover {
+      background-color: #007DD4 !important;
+    }
+  }
+
+  .pinterest {
+    background-color: #E60023;
+    color: #ffffff;
+    border: 1px solid #6A0515;
+
+    &:hover {
+      background-color: #D60B2A !important;
+    }
+  }
+}

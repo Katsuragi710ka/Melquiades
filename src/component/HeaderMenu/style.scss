@@ -1,0 +1,18 @@
+.header-menu {
+  position: fixed;
+  top: 0;
+  width: inherit;
+  z-index: 1000;
+  border-left: none;
+  border-right: none;
+}
+.drawer-opened {
+  .header-menu {
+    width: calc(100% - 280px);
+  }
+}
+.drawer-closed {
+  .header-menu {
+    width: 100%;
+  }
+}

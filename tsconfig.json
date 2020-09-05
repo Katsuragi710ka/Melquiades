@@ -1,0 +1,44 @@
+{
+  "compilerOptions": {
+    "outDir": "./dist/",
+    "sourceMap": true,
+    "noImplicitAny": false,
+    "module": "esnext",
+    "target": "esnext",
+    "jsx": "react",
+    "lib": [
+      "esnext",
+      "esnext.asynciterable",
+      "dom"
+    ],
+    "esModuleInterop": true,
+    "experimentalDecorators": true,
+    "moduleResolution": "node",
+    "allowJs": false,
+    "strict": true,
+    "noEmit": false,
+    "baseUrl": "src",
+    "paths": {
+      "@app/*": ["*"],
+      "@appAsset/*": ["asset/*"],
+      "@appComponent/*": ["component/*"],
+      "@appLayout/*": ["layout/*"],
+      "@appRoute/*": ["route/*"],
+      "@appStore/*": ["store/*"],
+      "@appAction/*": ["store/action/*"],
+      "@appReducer/*": ["store/reducer/*"],
+      "@appSaga/*": ["store/saga/*"],
+      "@appUtil/*": ["util/*"]
+    },
+  },
+  "exclude": [
+    "dist",
+    "node_modules"
+  ],
+  "include": [
+    "src/**/*",
+  ],
+  "files": [
+    "src/index.d.ts"
+  ]
+}
