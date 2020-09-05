@@ -43,11 +43,7 @@ const commonConfig = {
 			{
 				test: /\.(png|jpg|gif|mp4)$/,
 				use: {
-					loader: 'file-loader',
-					options: {
-						outputPath: modulePath.resolve(__dirname, `${entryDir}/assets/image`),
-						publicPath: modulePath.resolve(__dirname, `${outDir}/assets/image`)
-					}
+					loader: 'file-loader'
 				}
 			},
 			{

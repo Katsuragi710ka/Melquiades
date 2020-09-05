@@ -68,8 +68,7 @@
     "dev": "webpack-dev-server --config ./config/development/webpack.config.js",
     "eslint": "eslint 'src/**' -c .eslintrc",
     "eslint-fix": "eslint 'src/**' -c .eslintrc --fix",
-    "prod-build": "webpack --progress --config ./config/production/webpack.config.js",
-    "prod-start": "node ./dist/server.js",
+    "build": "webpack --config ./config/production/webpack.config.js",
     "start": "nw"
   }
 }
